@@ -32,11 +32,11 @@
 
 #define DEF_LAN_ADDR		"192.168.2.1"
 #define DEF_LAN_DHCP_BEG	"192.168.2.100"
-#define DEF_LAN_DHCP_END	"192.168.2.244"
+#define DEF_LAN_DHCP_END	"192.168.2.254"
 #define DEF_LAN_MASK		"255.255.255.0"
 
 #define DEF_WLAN_2G_CC		"CN"
-#define DEF_WLAN_5G_CC		"US"
+#define DEF_WLAN_5G_CC		"CN"
 #define DEF_WLAN_2G_SSID	BOARD_PID "_%s"
 #define DEF_WLAN_5G_SSID	BOARD_PID "_5G_%s"
 #define DEF_WLAN_2G_GSSID	BOARD_PID "_GUEST_%s"
