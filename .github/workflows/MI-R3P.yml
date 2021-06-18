@@ -1,4 +1,4 @@
-name: Build Padavan for MI-R3P
+name: MI-R3P latest
 
 on:
   workflow_dispatch:
