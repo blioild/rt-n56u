@@ -40,7 +40,7 @@ jobs:
         mkdir /opt/images
     - name: Build firmware
       env:
-        TNAME: MI-R3P-breed
+        TNAME: MI-R3G
       run: |
         cd /opt/rt-n56u/trunk
         sudo touch .config
@@ -51,5 +51,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan_MI-R3P
+        name: Padavan_MI-R3G
         path: /opt/images
