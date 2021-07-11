@@ -1,4 +1,4 @@
-name: MI-R3P breed latest
+name: MI-R3G breed latest
 
 on:
   workflow_dispatch:
