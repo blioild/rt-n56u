@@ -200,7 +200,7 @@ struct nvram_pair router_defaults[] = {
 #if BOARD_HAS_5G_11AC
 	{ "wl_HT_BW", "3" },
 #else
-	{ "wl_HT_BW", "1" },
+	{ "wl_HT_BW", "2" },
 #endif
 	{ "wl_txbf", "0" },
 	{ "wl_ssid2",  DEF_WLAN_5G_SSID },
@@ -227,7 +227,7 @@ struct nvram_pair router_defaults[] = {
 	{ "wl_HT_BAWinSize", "256" },
 	{ "wl_mumimo", "0" },
 #else
-	{ "wl_HT_AMSDU", "0" },
+	{ "wl_HT_AMSDU", "1" },
 	{ "wl_HT_BAWinSize", "64" },
 #endif
 	{ "wl_HT_MpduDensity", "5" },
