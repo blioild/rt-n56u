@@ -197,10 +197,12 @@ struct nvram_pair router_defaults[] = {
 	{ "wl_PktAggregate", "1" },
 	{ "wl_APSDCapable", "0" },
 	{ "wl_HT_OpMode", "0" },
-#if BOARD_HAS_5G_11AC
+#if defined (USE_WID_5G) && (USE_WID_5G==7615)
 	{ "wl_HT_BW", "3" },
-#else
+#elif BOARD_HAS_5G_11AC
 	{ "wl_HT_BW", "2" },
+#else
+	{ "wl_HT_BW", "1" },
 #endif
 	{ "wl_txbf", "0" },
 	{ "wl_ssid2",  DEF_WLAN_5G_SSID },
